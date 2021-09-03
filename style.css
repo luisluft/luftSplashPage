@@ -167,3 +167,105 @@ body {
   background: -webkit-linear-gradient(to right, #240b36, #c31432);
   background: linear-gradient(to right, #240b36, #c31432);
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100vw;
+  }
+
+  .brand-image {
+    width: 193px;
+    height: 47.64px;
+    left: 5vw;
+    top: 50.25px;
+  }
+
+  .title {
+    width: 95vw;
+    left: 5vw;
+    top: 12vh;
+    font-size: 28px;
+  }
+
+  .text {
+    width: 85vw;
+    left: 5vw;
+    top: 20vh;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 5px;
+  }
+
+  .app-store-button {
+    left: 5vw;
+    top: 40vh;
+  }
+
+  .app-store-button img {
+    width: 40vw;
+    height: auto;
+    min-height: 5vh;
+  }
+
+  .google-play-button {
+    left: 50vw;
+    top: 40vh;
+  }
+
+  .google-play-button img {
+    width: 40vw;
+    height: auto;
+    min-height: 6vh;
+  }
+
+  .main-image-container {
+    top: 50vh;
+    left: 2vw;
+  }
+
+  .main-image-container img {
+    height: 28vh;
+  }
+
+  .background-toggles {
+    right: 5vw;
+    top: 2vh;
+  }
+
+  .background-toggles > div {
+    height: 30px;
+    width: 30px;
+  }
+
+  .profile-image {
+    height: 35vh;
+    left: 38vw;
+    top: 80vh;
+  }
+
+  .product-image {
+    height: 16vh;
+    left: 50vw;
+    top: 110vh;
+  }
+
+  .orders-image {
+    height: 34vh;
+    left: 20vw;
+    top: 90vh;
+  }
+
+  .cart-image {
+    height: 16vh;
+    left: 0vw;
+    top: 110vh;
+  }
+
+  .home-image {
+    height: 32vh;
+    left: 65vw;
+    top: 90vh;
+  }
+}
